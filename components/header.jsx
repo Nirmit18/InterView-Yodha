@@ -13,11 +13,12 @@ const Header = async(props) => {
     <header className="fixed top-0 w-full border-b bg-background/20 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/40">
         <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
             <Link href="/">
-                <Image src={"/logo.svg"}
+                <Image src={"/Interview_cropped.png"}
                 alt="app logo"
-                width={100}
-                height={50}
-                className="h-12 py-1 w-auto object-contain" />
+                width={180}
+                height={150}
+                
+                className="py-2 px-2 object-contain" />
             </Link>
 
             <div className="flex items-center space-x-2 md:space-x-4">
